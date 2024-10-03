@@ -17,11 +17,11 @@ body {
 .container {
     width: 100%;
     max-width: 650px;
-    background: rgba(153, 212, 216, 0.9); /* Light teal with slight transparency */
+    background: rgba(153, 212, 216, 0.9);
     padding: 28px;
     margin: 0 28px;
     border-radius: 10px;
-    box-shadow: inset -2px 2px 2px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    box-shadow: inset -2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .form-title {
@@ -29,9 +29,9 @@ body {
     font-weight: 600;
     text-align: center;
     padding-bottom: 6px;
-    color: #ff6f61; /* Vibrant coral for the title */
+    color: #ff6f61;
     text-shadow: 1px 1px 2px black;
-    border-bottom: solid 1px #ff6f61; /* Coral border */
+    border-bottom: solid 1px #ff6f61;
 }
 
 .main-user-info {
@@ -54,7 +54,7 @@ body {
 
 .user-input-box label {
     width: 95%;
-    color: #264653; /* Darker color for better contrast */
+    color: #264653;
     font-size: 20px;
     font-weight: 400;
     margin: 5px 0;
@@ -65,22 +65,22 @@ body {
     width: 95%;
     border-radius: 7px;
     outline: none;
-    border: 1px solid #264653; /* Contrasting color border */
+    border: 1px solid #264653;
     padding: 0 10px;
-    background: #ffffff; /* Keeping input fields white for contrast */
-    color: #264653; /* Dark text for contrast */
+    background: #ffffff;
+    color: #264653;
 }
 
 .gender-title {
     color: #264653;
     font-size: 24px;
     font-weight: 600;
-    border-bottom: 1px solid #ff6f61; /* Coral border for gender title */
+    border-bottom: 1px solid #ff6f61;
 }
 
 .gender-category {
     margin: 15px 0;
-    color: #264653; /* Darker color for consistency */
+    color: #264653;
 }
 
 .gender-category label {
@@ -105,13 +105,13 @@ body {
     padding: 10px;
     border: none;
     border-radius: 3px;
-    color: #ffffff; /* White text for button */
-    background: #ff6f61; /* Vibrant coral for buttons */
+    color: #ffffff;
+    background: #ff6f61;
 }
 
 .form-submit-btn input:hover {
-    background: #e55a50; /* Darker coral on hover */
-    color: #ffffff; /* Keep text white for readability */
+    background: #e55a50;
+    color: #ffffff;
 }
 
 @media(max-width: 600px) {
